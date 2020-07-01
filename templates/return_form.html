@@ -4,14 +4,35 @@
     <link rel="stylesheet" href="/static/style.css">
   </head>
   <body>
-    <h1>{{processed_text}}</h1>
-    <h1>{{processed_size}}</h1>
+    <h1>Your query is {{processed_text}}</h1>
+    <h1>Your query size is {{processed_size}}</h1>
 
-
+  <h2>Here's how popular {{processed_text}} is around the web:</h2>
 	<h3>Wikipedia</h3>
-	<img src="/static/images/wiki_gravity.png" alt="wikipedia1" width="20%" height="200">
-	<img src="/static/images/wiki_gravity1.png" alt="wikipedia2" width="20%" height="200">
+	<img src="/static/images/wiki_electron.png" alt="wikipedia1" width="30%" height="300">
+  <img src="/static/images/wiki_electron1.png" alt="wikipedia2" width="30%" height="300">
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Electron" target="_blank">https://en.wikipedia.org/wiki/Electron</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Electronic_cigarette" target="_blank">https://en.wikipedia.org/wiki/Electronic_cigarette</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Electronic_music" target="_blank">https://en.wikipedia.org/wiki/Electronic_music</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Electric_battery" target="_blank">https://en.wikipedia.org/wiki/Electric_battery</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Electronic_Arts" target="_blank">https://en.wikipedia.org/wiki/Electronic_Arts</a></li>
+  </ul>
+  <h3>IMDb</h3>
+  <img src="/static/images/imdb_electron.png" alt="IMDb graph" width="30%" heigh="300">
+  <ul>
+    <li><a href="https://www.imdb.com/title/tt0081846/" target="_blank">https://www.imdb.com/title/tt0081846/</a></li>
+    <li><a href="https://www.imdb.com/title/tt0399877/" target="_blank">https://www.imdb.com/title/tt0399877/</a></li>
+    <li><a href="https://www.imdb.com/title/tt1385956/" target="_blank">https://www.imdb.com/title/tt1385956/</a></li>
+    <li><a href="https://www.imdb.com/title/tt0055246/" target="_blank">https://www.imdb.com/title/tt0055246/</a></li>
+    <li><a href="https://www.imdb.com/title/tt1620680/" target="_blank">https://www.imdb.com/title/tt1620680/</a></li>
+  </ul>
+  <h3>Steam</h3>
+  <img src="/static/images/steam_electron.png" alt="Steam graph" width="30%" heigh="300">
     <h4>Main Page</h4>
-    <a href="https://analyzing-trends-app.herokuapp.com/">main page</a>
+    <a href="http://localhost:777/">main page</a>
+  <h2>Here are the learning resources we found related to {{processed_text}}</h2>
   </body>
 </html>
+
+
