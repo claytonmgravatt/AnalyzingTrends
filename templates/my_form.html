@@ -31,7 +31,8 @@
             var $form = $(this),
                 qWord = $form.find('input[name="text"]').val(),
                 qSize = $form.find('input[name="size"]').val(),
-            
+                // important for some reason
+                url = $form.attr( 'action' );
 
             // Post data
             var posting = $.post(url, {
